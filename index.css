@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 html,
 body,
 div,
@@ -86,11 +85,13 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font:inherit;
+  font: inherit;
   vertical-align: baseline;
 }
 
-body {font-family:"Roboto Mono", monospace;}
+body {
+  font-family: "Roboto Mono", monospace;
+}
 nav {
   text-align: center;
 }
@@ -104,18 +105,16 @@ nav button {
 }
 .btn2 {
   background-color: #5ed3eb;
-  
 }
 .btn3 {
   background-color: #ffcd69;
-  
 }
 
 header {
   display: inline-block;
   width: 100%;
-  
-  height:300px;
+
+  height: 300px;
 }
 header img {
   display: inline-block;
@@ -126,18 +125,24 @@ header img {
 header .headtxt {
   display: inline-block;
   text-align: center;
-  
-  vertical-align: top;
-  margin-top:30px;
-  }
-h2 {margin-top:10px;
-      margin-bottom:10px;}
-h1 {font-family: 'Chelsea Market', cursive;
-font-size:50px;}
-header .headtxt p{width:50%;
-text-align:center;
 
-margin:auto;}
+  vertical-align: top;
+  margin-top: 30px;
+}
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 50px;
+}
+header .headtxt p {
+  width: 50%;
+  text-align: center;
+
+  margin: auto;
+}
 nav {
   text-align: center;
 }
@@ -147,8 +152,40 @@ nav button {
   margin: 10px 10%;
 }
 
-#sec1 {background-color:#DDB9A3;
-margin:0 30px 0 30px;
-padding:10px 20px 10px 20px;
-color:white;
+#sec1 {
+  background-color: #ddb9a3;
+  margin: 0 30px 0 30px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+}
+
+#sec2 {
+  width: 50%;
+  margin: 0 25%;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+#sec2 img {
+  width: 25%;
+  height: 25%;
+  vertical-align: center;
+}
+
+#sec3 {
+  width: 50%;
+  margin: 0 25%;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+span {font-weight:500px;}
+#sec3 img {
+  width: 25%;
+  height: 25%;
+  vertical-align: center;
+}
+
+#foot {
+ box-sizing:borderbox;
+ max-width:100%;
+ max-height: 30%;
 }
